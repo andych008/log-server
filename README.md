@@ -18,6 +18,12 @@ tsc
 node ./dist/server/server.js
 ```
 
+## 测试
+```
+npm install -g wscat
+wscat -c ws://echo.websocket.org 
+```
+
 ## 参考
 https://medium.com/factory-mind/websocket-node-js-express-step-by-step-using-typescript-725114ad5fe4
 
